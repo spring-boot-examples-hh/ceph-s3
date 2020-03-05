@@ -1,0 +1,17 @@
+# 配置端口
+server:
+  port: 8082
+  servlet:
+    context-path: /ceph
+
+# ceph存储相关信息配置
+ceph:
+  config:
+    hosts: http://10.88.8.10:18890
+    accessKey: amHndMOAzLCMGlQR7h4l9
+    secretKey: amIuFtoOX8pt7hhSXQ4bj3eB556zJHYveV1yjjVddw
+    bucketName: chenoss6d1b6bcd
+
+logging:
+  level:
+    com.roylao: DEBUG
