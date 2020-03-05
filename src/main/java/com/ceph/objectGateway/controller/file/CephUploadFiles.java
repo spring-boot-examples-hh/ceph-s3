@@ -14,15 +14,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
-import java.io.File;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.net.URL;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 /**
  * @author:LHH
- * @desc: ceph存储文件
+ * @desc: ceph存储文件 Servlet方式
  * @date: 2020-2-27 17:54:07
  **/
 @WebServlet(name = "cephUploadFiles", urlPatterns = {"/cephUpcloadFiles"})
